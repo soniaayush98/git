@@ -1,0 +1,8 @@
+a={}
+b=1
+c=1
+for x in range(0,10):
+	a[x]=b+c
+	b=c
+	c=a[x]
+print 
